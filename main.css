@@ -95,3 +95,21 @@ p {
   line-height: 60px;
   background-color: white;
 }
+
+button:disabled,
+button[disabled] {
+  background-color: #cccccc;
+  color: #666666;
+
+  padding: 0.35em 1.2em;
+  border: none;
+  margin: 10px;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #cccccc;
+  min-width: 210px;
+}
