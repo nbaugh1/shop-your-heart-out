@@ -100,7 +100,6 @@ button:disabled,
 button[disabled] {
   background-color: #cccccc;
   color: #666666;
-
   padding: 0.35em 1.2em;
   border: none;
   margin: 10px;
